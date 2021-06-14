@@ -1,0 +1,214 @@
+@font-face {
+    font-family: iCiel Gotham;
+    src: url(fonts/iCiel\ Gotham-Medium.ttf);
+}
+
+/* viewport >= 1024px */
+@media only screen and (min-width: 1024px) {
+    #big {
+        position: absolute;
+        width: 300px;
+        height: 265px;
+        left: 156.5px;
+        top: 214.6px;
+        margin: 0px;
+
+        font-size: 96px;
+        font-style: normal;
+        font-weight:500;
+        line-height: 119.5px;
+
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    #form_head {
+        position: absolute;
+        width: 178px;
+        height: 60px;
+        left: 618px;
+        top: 142px;
+        margin: 0px;
+
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 60px;
+    }
+
+    #form {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+
+        position: absolute;
+        left: 565px;
+        top: 214px;
+        height: 220px;
+        width: 300px;
+    }
+    #form input {
+        display: flex;
+
+        background-color: #1F1F1F;
+        color: #585858;
+        font-family: iCiel Gotham;
+        font-style: normal;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 30.5px;
+        text-align: center;
+
+        box-sizing: border-box;
+        margin:0px;
+        width: 290px;
+        height: 60px;
+        border-radius: 7.8px;
+        border: 4px solid #FAFAFA;
+    }
+    #form input:hover {
+        color: #FFFFFF;
+    }
+    #form input:focus {
+        color: #FFFFFF;
+    }
+    #form input:valid {
+        color: #FFFFFF;
+        background-color: #1F1F1F;
+    }
+
+    
+    #submit {
+        font-family: iCiel Gotham;
+        font-style: normal;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 30.5px;
+        color: #FFFFFF;
+        background-color: #3137DC;
+
+        position: absolute;
+        width: 180px;
+        height: 60px;
+        left: 620px;
+        top: 452.5px;
+
+        border-radius:7px;
+        border: none;
+    }
+
+    #login {
+        position: absolute;
+        width: 200px;
+        height: 29.8px;
+        left: 613.5px;
+        top: 546px;
+
+        font-family: iCiel Gotham;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 30.5px;
+        color: #3137DC;
+    }
+}
+
+
+
+/* 768 <= viewport < 1024px */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    #big {
+        position: absolute;
+        width: 168px;
+        height: 265px;
+        left: 90px;
+        top: 360px;
+        margin: 0px;
+
+        font-size: 72px;
+        font-style: normal;
+        font-weight:500;
+        line-height: 96px;
+
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    #form_head {
+        position: absolute;
+        width: 165px;
+        height: 63.2px;
+        left: 416.5px;
+        top: 233.6px;
+        margin: 0px;
+
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 64px;
+    }
+
+    #form {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+
+        position: absolute;
+        left: 380px;
+        top: 314.6px;
+        height: 270px;
+        width: 305px;
+    }
+    #form input {
+        display: flex;
+
+        background-color: #1F1F1F;
+        color: #585858;
+        font-family: iCiel Gotham;
+        font-style: normal;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30.5px;
+        text-align: center;
+
+        box-sizing: border-box;
+        margin:0px;
+        width: 238px;
+        height: 67.5px;
+        border-radius: 7.8px;
+        border: 4px solid #FAFAFA;
+    }
+    #submit {
+        font-family: iCiel Gotham;
+        font-style: normal;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30.5px;
+        color: #FFFFFF;
+        background-color: #3137DC;
+
+        position: absolute;
+        width: 152px;
+        height: 67px;
+        left: 423px;
+        top: 612.5px;
+
+        border-radius:7px;
+        border: none;
+    }
+
+    #login {
+        position: absolute;
+        width: 180px;
+        height: 29. 8px;
+        left: 409px;
+        top: 706px;
+
+        font-family: iCiel Gotham;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30.5px;
+        color: #3137DC;
+    }
+}

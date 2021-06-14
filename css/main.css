@@ -1,0 +1,141 @@
+@font-face {
+    font-family: iCiel Gotham;
+    src: url(fonts/iCiel\ Gotham-Medium.ttf);
+}
+
+html, body {
+    background-color: #1F1F1F;
+    color: #FFFFFF;
+    font-family: iCiel Gotham;
+    margin: 0px;
+}
+
+@media only screen and (min-width: 1024px) {
+
+    /*background color the language banners*/
+    #Typescript {
+        background-color: #E31792;
+    }
+    #Python {
+        background-color: #3137DC;
+    }
+    #Dart {
+        background-color: #534B4B;
+    }
+    #Ruby {
+        background-color: #B00F18;
+    }
+    #JavaScript {
+        background-color: #31B3DC;
+    }
+    #Flutter {
+        background-color: #0EAA3A;
+    }
+
+
+    #view {
+        position: absolute;
+        width: 242.6px;
+        height: 29.2px;
+        left:99.6px;
+        top:0.8em;
+
+        font-size: 22px;
+        line-height:24.5px;
+        color: #BFBFBF;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    #gists {
+        position: absolute;
+        width: 120px;
+        height: 44px;
+        left: 57.6px;
+        top: 1.5em;
+        margin: 0;
+
+        font-size: 36px;
+        line-height: 40px;
+        font-style: normal;
+        font-weight: 500;
+
+        color: #FFFFFF
+    }
+
+    .search_wrapper {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+
+        height: 28.8px;
+        width: 328px;
+        left: 920px;
+        top: 48px;
+        border-radius: 12.8px;
+        background-color: #191919;
+    }
+
+    .search_wrapper img {
+        width: 17.6px;
+    }
+
+    .search_wrapper input {
+        width: 304px;
+        border: none;
+        background-color: transparent;
+
+        font-family: iCiel Gotham;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19.2px;
+    }
+    .search_wrapper button {
+        border: none;
+        background-color: transparent;
+    }
+
+    .search_wrapper input:hover {
+        color: #FFFFFF;
+    }
+    .search_wrapper input:focus {
+        color: #FFFFFF;
+    }
+    .search_wrapper input:valid {
+        color: #FFFFFF;
+    }
+
+
+    #socials {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width:104px;
+        left: 51.2px;
+        top: 640px;
+
+    }
+    #socials img {
+        width: 14.4px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    #view {
+        position: absolute;
+        /*width: 135.8px;*/
+        height: 29.2px;
+        left: 50px;
+        top: 2em;
+
+        font-size: 24px;
+        line-height: 32px;
+        color: #BFBFBF;
+        font-style: normal;
+        font-weight: 400;
+    }
+}

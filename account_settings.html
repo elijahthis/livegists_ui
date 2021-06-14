@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Settings</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/account_settings.css" />
+</head>
+<body>
+    <div id="sidenav">
+        <h3 id="gists">GISTS.</h3>
+        <div id="links">
+            <a href="public_gists.html"><span>Home</span></a>
+            <a href="dashboard.html"><span>My Profile</span></a>
+            <a href="#" id="focus"><span>Settings</span></a>
+            <a href="#"><span>Logout</span></a>
+        </div>
+
+        <div id="socials">
+            <img src="images/facebook-icon.png"/>
+            <img src="images/linkedin-icon.png"/>
+            <img src="images/github-icon.png"/>
+        </div>
+
+    </div>
+
+    <div id="main">
+        <h4 id="settings">Account Settings</h4>
+        <div>
+             <img src="images/jorja.png"  id="profile_pic"/>
+             <a href="#" id="change_button">Change</a>
+        </div>
+        <div>
+            <div id="form">
+                <input type="text" id="Name" name="Name" placeholder="NAME">
+                <input type="email" id="Email" name="Email" placeholder="EMAIL">
+                <input type="password" id="Password" name="Password" placeholder="PASSWORD">
+                <div id="dark_mode">
+                    <span>Dark Mode</span>
+                    <div class="switch">
+                        <input id="toggle1" class="toggle-round" type="checkbox"/>
+                        <label for="toggle1"></label>
+                    </div>
+                </div>
+                <input type="submit" value="SAVE CHANGES" />
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
