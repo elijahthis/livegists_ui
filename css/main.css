@@ -2,12 +2,18 @@
     font-family: iCiel Gotham;
     src: url(fonts/iCiel\ Gotham-Medium.ttf);
 }
-
+:root {
+    --brd_rad_small: 22px;
+    --brd_rad_big: 36px;
+	
+	font-size: 14px;
+}
 html, body {
     background-color: #1F1F1F;
     color: #FFFFFF;
     font-family: iCiel Gotham;
     margin: 0px;
+    
 }
 
 @media only screen and (min-width: 1024px) {
@@ -32,6 +38,12 @@ html, body {
         background-color: #0EAA3A;
     }
 
+    .logo {
+        width: 52px;
+        margin-top: 25px;
+        margin-left: 32px;
+    }
+
 
     #view {
         position: absolute;
@@ -41,7 +53,7 @@ html, body {
         top:0.8em;
 
         font-size: 22px;
-        line-height:24.5px;
+        line-height: 24.5px;
         color: #BFBFBF;
         font-style: normal;
         font-weight: 400;

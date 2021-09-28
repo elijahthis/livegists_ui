@@ -1,24 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SIGNUP</title>
+    <title>signup</title>
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/signup.css" />
 </head>
-<body>
-    <a href="gists.html"><p id="view">View public gists</p></a>
-    <h1 id="big">Live-<br />Gists</h1>
 
-    <h3 id="form_head">SIGNUP</h3>
-    <div id="form">
-        <input type="email" id="Email" name="Email" placeholder="Email">
-        <input type="text" id="Username" name="Username" placeholder="Username">
-        <input type="password" id="Password" name="Password" placeholder="Password">
+<body>
+    <img src="images/logo.png" class="logo"/>
+
+    <div>
+        <div id="signup_form_box">
+            <header>
+                <h3 id="form_head">signup</h3>
+                <hr />
+            </header>
+			<div class="signup_form_main">
+            <div id="signup_form">
+                <input type="text" name="Username" placeholder="Username" />
+                <input type="password" name="Password" placeholder="Password" />
+                <input type="submit" value="signup" />
+                <div>
+                    <hr class="or" data-content="OR" />
+                </div>
+                <a href="#">
+                    <div class="signup_options">
+                        <img src="images/google-icon.png" />
+                        Sign in with Google
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="signup_options">
+                        <img src="images/github-dark.png" />
+                        Sign in with Github
+                    </div>
+                </a>
+            </div>
+            <div id="signup_footer">
+                <div><a href="#">Forgot Password?</a></div>
+                <div><span>Don't have an account?</span> <a href="#">Sign up</a></div>
+            </div>
+			</div>
+        </div>
     </div>
-    <input id="submit" type="submit" value="Submit">
-    <a href="login.html" id="login">Have an Account?</a>
+	<div class="grid-col-3">
+		<img src="images/login-background.png" />
+	</div>
 </body>
+
 </html>

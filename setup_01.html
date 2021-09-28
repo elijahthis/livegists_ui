@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Verification</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/setup_01.css" />
+</head>
+
+<body>
+    <img src="images/logo.png" class="logo" />
+
+    <div class="grid-col-2">
+        <div id="otp_box">
+            <header>
+                <h3 id="form_head">OTP Verification</h3>
+                <hr />
+            </header>
+            <div class="otp_body">
+                <div id="otp_message">
+                    Enter the 6-digit OTP code sent to *****11@gmail.com
+                </div>
+                <div id="otp_form">
+                    <input type="number" name="otp" pattern="[0-9]{6}" maxlength="6" placeholder="******" />
+                    <input type="submit" value="Continue" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-col-3">
+        <img src="images/background-account-creation.png" />
+    </div>
+</body>
+
+</html>

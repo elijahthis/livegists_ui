@@ -1,0 +1,129 @@
+@font-face {
+    font-family: iCiel Gotham;
+    src: url(fonts/iCiel\ Gotham-Medium.ttf);
+}
+
+/* viewport >= 1024px */
+@media only screen and (min-width: 1024px) {
+    html, body {
+        background-color: #FFFFFF;
+        color: #000000;
+    }
+    
+    body {
+        display: grid;
+        grid-template-columns: 1fr 480px 1fr;
+		max-width: 100vw;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+
+    #image-upload_box {
+        width: auto;
+        height: 600px;
+        margin-top: 50px;
+        box-sizing: border-box;
+        border-radius: var(--brd_rad_small);
+
+        background-color: #FFFFFF;
+        border: 1px solid #FFFFFF;
+        text-align: center;
+
+        box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, .25);
+    }
+
+    header div {
+        margin: 5px 32px 0px 32px;
+        width: 416px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    h5 {
+        margin: 21px 0px 16px 0px;
+    }
+
+    .prev_next {
+        color: #000000;
+    }
+    #upload-step {
+        color: #636363;
+    }
+
+    hr {
+        color: #C8C8C8;
+    }
+
+    .image-upload_body {
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #image-upload_message {
+        width: 300px;
+        color: #6B6B6B;
+    }
+    #image-upload_message  h5{
+        color: #000000;
+        font-size: 18px;
+    }
+
+    .placeholder-profile-image {
+        width: 250px;
+    }
+
+    #image-upload_form {
+        height: 160px;
+        padding: 0 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .upload_photo, input {
+        display: block;
+    
+        box-sizing: border-box;
+        height: 40px;
+        width: 200px;
+        padding: 10px 36px;
+        border: none;
+        border-radius: var(--brd_rad_big);
+
+        font-family: inherit;
+        font-size: inherit;
+        font-weight: 500;
+        font-style: normal;
+        text-align: center;
+
+        background-color: #D2D2D2;
+        color: #000000;
+    }
+
+
+    input[type=submit] {
+        background-color: #000000;
+        color: #FFFFFF;
+        width: 400px;
+        height: 60px;
+    }
+
+	.grid-col-3 {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+		align-items: center; 
+	}
+    .grid-col-3 img {
+		width: 300px;
+	}
+}
